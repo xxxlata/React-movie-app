@@ -1,5 +1,5 @@
 .movie {
-    background-color: white;
+    background-color: rgb(187, 187, 187);
     margin-bottom: 70px;
     font-weight: 300;
     padding: 20px;
@@ -34,8 +34,13 @@
   .movie__title a {
     margin-bottom: 5px;
     font-size: 24px;
+    font-weight: bold;
     color: #2c2c2c;
     text-decoration: none;
+  }
+
+  .movie__title a:hover {
+      color: brown;
   }
   
   .movie__genres {
